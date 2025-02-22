@@ -1,0 +1,3 @@
+# Non-Deterministic Function in SQL Query
+
+This repository demonstrates a common error in SQL programming: the unexpected use of non-deterministic functions. The `bug.sql` file contains a query that uses the `RAND()` function in the `WHERE` clause, which leads to non-repeatable results. The `bugSolution.sql` file shows how to modify the query to produce consistent and predictable results. The non-determinism can cause major headaches, especially in production environments.
